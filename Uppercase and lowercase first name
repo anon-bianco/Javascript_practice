@@ -1,0 +1,7 @@
+var name=prompt("Enter your name: ");
+var count=name.length;
+var slice_1=name.slice(0,1);
+var slice_2=name.slice(1,count);
+var uc=slice_1.toUpperCase();
+var lc=slice_2.toLowerCase();
+alert("Hello! "+uc+lc);
