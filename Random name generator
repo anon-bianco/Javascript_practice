@@ -1,0 +1,4 @@
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+var noOfPersons = names.length;
+var randomNumber = Math.floor(Math.random()*noOfPersons);
+console.log(names[randomNumber]+" is going to pay the bill");
